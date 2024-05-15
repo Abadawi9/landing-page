@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+  }
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+  }
+
+.left, .right{
+    display: flex;
+    align-items: center;
+}
+
+.left .logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.right .nav {
+    padding-right: 80px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.nav ul a{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.hero .left1 {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.hero button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.right1 img {
+    width: 500px;
+    height: 350px;
+}
