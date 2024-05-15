@@ -21,6 +21,8 @@
     background-color: #1f2937;
 }
 
+
+
 ul {
     display: flex;
     margin: 0;
@@ -50,6 +52,10 @@ ul {
 .nav ul a{
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.nav ul a:hover{
+    color: white;
 }
 
 /* Hero */
